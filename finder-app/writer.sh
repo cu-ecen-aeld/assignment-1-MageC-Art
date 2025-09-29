@@ -14,7 +14,6 @@ mkdir -p "$(dirname "$writefile")"
 
 if ! echo "$writestr" > "$writefile"; then
 echo "Error: Could not create file $writefile"
-echo "something missing? how did you use it?"
 exit 1
 fi
 
