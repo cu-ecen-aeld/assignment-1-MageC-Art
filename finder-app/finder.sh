@@ -1,6 +1,6 @@
-#!/bin/sh
-set -o nounset
-set -o pipefail
+#!/bin/bash
+#set -o nounset
+#set -o pipefail
 
 # --- Args and validation
 if [ $# -ne 2 ]; then
